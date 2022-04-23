@@ -14,6 +14,26 @@ document.querySelector('.close__menu__mobile').addEventListener('click', () => {
     document.querySelector('.menu__mobile').classList.remove("menu__mobile__hidden")
 })
 
+document.querySelector("#login").addEventListener('click', () => {
+    document.querySelector('.cover__login').classList.remove("cover__login__hidden")
+})
+
+document.querySelector(".behind__bg ").addEventListener('click', () => {
+    document.querySelector('.cover__login').classList.add("cover__login__hidden")
+})
+
+document.querySelector(".behind__bg__signup ").addEventListener('click', () => {
+    document.querySelector('.cover__signup').classList.add("cover__signup__hidden")
+})
+
+document.querySelector(".email__input ").addEventListener('click', () => {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+})
+
+document.querySelector("#signup").addEventListener('click', () => {
+    document.querySelector('.cover__signup').classList.remove("cover__signup__hidden")
+})
+
 var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
 
 // Update the count down every 1 second
