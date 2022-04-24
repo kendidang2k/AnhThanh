@@ -42,6 +42,9 @@
   .wrapper form {
     width: 80%;
   }
+  .banner {
+    height: auto;
+  }
 }
 
 @media (max-width: 575.98px) {
