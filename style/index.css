@@ -291,7 +291,7 @@ button {
 .cover__img__gr .cover__content .wrap__content .sub__title {
   position: absolute;
   bottom: 80px;
-  left: 270px;
+  left: 15%;
 }
 .cover__img__gr .cover__content .wrap__content .sub__title p {
   color: #fff;
@@ -313,7 +313,10 @@ button {
 .cover__img__gr .cover__content .wrap__content .cover__count__down {
   position: absolute;
   bottom: 90px;
-  right: 250px;
+  right: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .cover__img__gr .cover__content .wrap__content .cover__count__down p {
@@ -598,6 +601,30 @@ button {
   margin-top: 30px;
   text-align: right;
   width: 50%;
+}
+.footer .footer__content .content__right .mail__input {
+  display: flex;
+  height: 35px;
+  position: relative;
+}
+.footer .footer__content .content__right .mail__input input {
+  height: 100%;
+}
+
+.footer .footer__content .content__right .mail__input button {
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  font-size: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f15b1f;
+  color: #fff;
 }
 
 .footer .footer__content .content__right .title {
@@ -892,6 +919,29 @@ button {
   .footer {
     padding: 0 50px;
   }
+  .cover__img__gr .cover__content .wrap__content .sub__title p:last-child {
+    font-size: 37px;
+  }
+  .cover__img__gr
+    .cover__content
+    .wrap__content
+    .cover__count__down
+    #count__down
+    span {
+    font-size: 40px;
+  }
+  .cover__img__gr
+    .cover__content
+    .wrap__content
+    .cover__count__down
+    .email__input {
+    width: 80%;
+    font-size: 18px;
+  }
+  .footer .footer__content .content__right .mail__input input::placeholder {
+    text-align: left;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -952,6 +1002,9 @@ button {
     left: auto;
     bottom: auto;
   }
+  .cover__img__gr .cover__content .wrap__content .big__title {
+    margin-top: 20px;
+  }
   .menu div {
     border-bottom: 2px solid #f15b1f;
   }
@@ -1005,6 +1058,13 @@ button {
     text-align: left;
   }
   .footer .footer__content .content__left .content {
+    width: 100%;
+  }
+  .cover__img__gr
+    .cover__content
+    .wrap__content
+    .cover__count__down
+    .email__input {
     width: 100%;
   }
 }
