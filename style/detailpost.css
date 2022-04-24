@@ -483,7 +483,6 @@ button {
     width: 150px;
   }
 }
-
 @media (max-width: 575.98px) {
   .tab-content {
     height: 345px;
