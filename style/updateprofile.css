@@ -1,0 +1,51 @@
+.update__profile {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper .title {
+  font-size: 30px;
+  color: #f15b1f;
+  font-weight: bold;
+}
+
+.wrapper form {
+  width: 50%;
+}
+
+.wrapper form input {
+  border: 1px solid #f15b1f;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.wrapper form p {
+  margin: 0;
+  color: #00467f;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .wrapper .title {
+    font-size: 25px;
+  }
+  .wrapper form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .wrapper .title {
+    font-size: 20px;
+  }
+}
